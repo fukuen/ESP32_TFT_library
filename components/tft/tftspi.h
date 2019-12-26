@@ -221,8 +221,8 @@ typedef struct __attribute__((__packed__)) {
 } color_t ;
 
 // ==== Display commands constants ====
-#define TFT_INVOFF     0x20
-#define TFT_INVONN     0x21
+#define TFT_INVOFF     0x21 // for M5Stack org20
+#define TFT_INVONN     0x20 // for M5Stack org21
 #define TFT_DISPOFF    0x28
 #define TFT_DISPON     0x29
 #define TFT_MADCTL	   0x36
